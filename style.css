@@ -10,3 +10,7 @@
     height: 70px;
     border: 2px solid black;
 }
+
+.square:hover {
+    background-color: black;
+}
