@@ -1,11 +1,12 @@
 .container {
-    width: 1120px;
-    height: 1120px;
+    width: 960px;
+    height: 960px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .square {
+    box-sizing: border-box;
     width: 70px;
     height: 70px;
     border: 2px solid black;
