@@ -7,8 +7,7 @@
 
 .square {
     box-sizing: border-box;
-    width: 70px;
-    height: 70px;
+    aspect-ratio: 1 / 1;
     border: 2px solid black;
 }
 

@@ -13,7 +13,7 @@ function createGrid(gridSize = 16) {
     for (let i = 0; i < gridSize**2; i++) {
         const square = document.createElement("div");
         square.setAttribute("class", `square ${i}`);
-        square.setAttribute("style", `width: ${squareSize}px; height: ${squareSize}px;`);
+        square.setAttribute("style", `flex: 1 0 calc(100% / ${gridSize});`);
         container.appendChild(square);
     
         square.addEventListener("mousedown", (event) => {
